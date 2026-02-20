@@ -1,29 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 240" fill="none">
-  <rect width="680" height="240" rx="16" fill="#0d1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" fill="none">
+  <rect width="680" height="200" rx="16" fill="#0d1117"/>
   <defs>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161b22" stroke-width="1"/>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0L0 0 0 40" fill="none" stroke="#161b22" stroke-width="1"/>
     </pattern>
   </defs>
-  <rect width="680" height="240" fill="url(#grid)"/>
-  <g transform="translate(60, 45)">
-    <rect x="5" y="5" width="110" height="110" rx="14" fill="#1a2332" stroke="#e05d44" stroke-width="2.5"/>
-    <rect x="18" y="30" width="84" height="55" rx="5" fill="none" stroke="#e05d44" stroke-width="2"/>
-    <path d="M18 30 L60 60 L102 30" fill="none" stroke="#e05d44" stroke-width="2"/>
-    <line x1="60" y1="72" x2="60" y2="100" stroke="#e05d44" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M50 92 L60 102 L70 92" stroke="#e05d44" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <rect x="75" y="65" width="20" height="25" rx="2" fill="#1a2332" stroke="#e05d44" stroke-width="1.5" opacity="0.5"/>
-    <path d="M80 72 L90 72 M80 78 L88 78 M80 84 L86 84" stroke="#e05d44" stroke-width="1" opacity="0.4"/>
+  <rect width="680" height="200" fill="url(#g)"/>
+  <g transform="translate(40,40)">
+    <rect width="120" height="120" rx="16" fill="#1a2332" stroke="#e05d44" stroke-width="2.5"/>
+    <rect x="18" y="28" width="84" height="52" rx="5" fill="none" stroke="#e05d44" stroke-width="2"/>
+    <path d="M18 28 L60 58 L102 28" fill="none" stroke="#e05d44" stroke-width="2"/>
+    <line x1="60" y1="70" x2="60" y2="98" stroke="#e05d44" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M50 90 L60 100 L70 90" stroke="#e05d44" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="78" y="62" width="18" height="24" rx="2" fill="#1a2332" stroke="#e05d44" stroke-width="1.5" opacity="0.5"/>
+    <path d="M82 70 L92 70 M82 76 L90 76 M82 82 L88 82" stroke="#e05d44" stroke-width="1" opacity="0.4"/>
   </g>
-  <text x="210" y="80" font-family="'Segoe UI', system-ui, sans-serif" font-size="44" fill="#e6edf3" font-weight="700" letter-spacing="-1">163 Email</text>
-  <text x="210" y="130" font-family="'Segoe UI', system-ui, sans-serif" font-size="44" fill="#e05d44" font-weight="700" letter-spacing="-1">Downloader</text>
-  <text x="212" y="163" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#7d8590">163 邮箱附件批量下载 | IMAP 协议</text>
-  <g transform="translate(212, 180)">
-    <rect x="0" y="0" width="72" height="22" rx="11" fill="#1a2332" stroke="#e05d44" stroke-width="1"/>
-    <text x="36" y="15" font-family="monospace" font-size="10" fill="#e05d44" text-anchor="middle">Python</text>
-    <rect x="82" y="0" width="95" height="22" rx="11" fill="#1a2332" stroke="#58a6ff" stroke-width="1"/>
-    <text x="129" y="15" font-family="monospace" font-size="10" fill="#58a6ff" text-anchor="middle">IMAPClient</text>
-    <rect x="187" y="0" width="72" height="22" rx="11" fill="#1a2332" stroke="#3fb950" stroke-width="1"/>
-    <text x="223" y="15" font-family="monospace" font-size="10" fill="#3fb950" text-anchor="middle">pyzmail</text>
+  <text x="195" y="72" font-family="'Segoe UI',system-ui,sans-serif" font-size="46" fill="#e6edf3" font-weight="700" letter-spacing="-1">163 Email</text>
+  <text x="195" y="118" font-family="'Segoe UI',system-ui,sans-serif" font-size="46" fill="#e05d44" font-weight="700" letter-spacing="-1">Downloader</text>
+  <text x="197" y="148" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" fill="#7d8590">163 &#x90AE;&#x7BB1;&#x9644;&#x4EF6;&#x6279;&#x91CF;&#x4E0B;&#x8F7D; | IMAP &#x534F;&#x8BAE;</text>
+  <g transform="translate(197,162)">
+    <rect width="66" height="22" rx="11" fill="#1a2332" stroke="#e05d44" stroke-width="1"/>
+    <text x="33" y="15" font-family="monospace" font-size="10" fill="#e05d44" text-anchor="middle">Python</text>
+    <rect x="76" width="92" height="22" rx="11" fill="#1a2332" stroke="#58a6ff" stroke-width="1"/>
+    <text x="122" y="15" font-family="monospace" font-size="10" fill="#58a6ff" text-anchor="middle">IMAPClient</text>
+    <rect x="178" width="70" height="22" rx="11" fill="#1a2332" stroke="#3fb950" stroke-width="1"/>
+    <text x="213" y="15" font-family="monospace" font-size="10" fill="#3fb950" text-anchor="middle">pyzmail</text>
   </g>
 </svg>
